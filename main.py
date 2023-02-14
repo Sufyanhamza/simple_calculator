@@ -1,7 +1,7 @@
 from addition import add
 from multiplication import multiply
 from subtraction import subtract
-import pandas as pd
+from exponent import power
 
 if __name__ == "__main__":
     A=6
@@ -10,3 +10,4 @@ if __name__ == "__main__":
     print(add(A,B)) 
     print(multiply(A,B)) 
     print(subtract(A,B)) 
+    print(power(A,B))
